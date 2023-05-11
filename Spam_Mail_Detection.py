@@ -46,7 +46,7 @@ print('Logisitic Reg Accuracy : ', test_data_accuracy)
 
 #print(LR.coef_.tolist())
 
-
+# example 
 input_mail = ["URGENT! You have won a 1 week FREE membership in our £100,000 Prize Jackpot!"]
 transfo= feature_extraction.transform(input_mail)
 predictio = LR.predict(transfo)
