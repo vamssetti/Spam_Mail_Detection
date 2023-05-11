@@ -1,1 +1,4 @@
 # Spam_Mail_Detection
+
+An Logistic Regression model has been Built on dataset consist of spam mails.the logistic function plays an important role in classification here but we need to understand what is logistic function and how does it help in estimating the probability of being in a class.The formulawe used in the model is known as Logistic function or Sigmoid function and it's curve called Sigmoid curve. The Sigmoid function gives an S shaped curve. The output of Sigmoid function tends towards 1 as z → ∞ and tends towards 0 as z → −∞. Hence Sigmoid/logistic function produces the value of dependent variable which will always lie between [0,1] i.e the probability of being in a class. 
+TfidfVectorizer used in the project for transforming the text data into the feature vectors which is used as input. 
